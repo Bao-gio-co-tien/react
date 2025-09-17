@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+
+    </div>
+
+    <script>
+        const arr = [
+            "Paragraph 1",
+            "Paragraph 2",
+            "Paragraph 3",
+            "Paragraph 4"
+        ]
+
+        const wrapperNode = document.getElementById("wrapper");
+        for(let i=0; i < arr.length; i++) {
+            const pNode = document.createElement("p");
+            pNode.innerText = arr[i];
+            wrapperNode.appendChild(pNode);
+        }
+
+
+        // let html = '';
+        // for(let i = 0; i < arr.length; i++) {
+        //     html += `<p>${arr[i]}</p>`;
+        // }
+
+        // const wrapperNode = document.
+    </script>
+</body>
+</html>
